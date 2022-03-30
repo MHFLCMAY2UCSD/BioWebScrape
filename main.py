@@ -18,12 +18,12 @@ def main():
 
     # Login Process
     username = driver.find_element_by_id("username")
-    username.send_keys("w1777471")
+    username.send_keys("Username")
 
     time.sleep(random.randint(3, 8))
 
     password = driver.find_element_by_id("password")
-    password.send_keys("California95682")
+    password.send_keys("Password")
 
     time.sleep(random.randint(2, 5))
 
